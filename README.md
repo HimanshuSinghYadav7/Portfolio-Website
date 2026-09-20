@@ -5,7 +5,7 @@ This project is open-sourced to serve as a reference for other developers lookin
 
 Built with Next.js 16, React 19, TypeScript, Tailwind CSS 4, and shadcn/ui.
 
-🌐 **Live:** [[himanshusinghyadav7.vercel.app)](https://himanshusinghyadav7.vercel.app/)
+🌐 **Live:** [Your Netlify URL]
 
 ---
 
@@ -17,7 +17,6 @@ If you're using this as a template or reference:
 
 ---
 
-
 ## Local development
 
 Requires Node.js 18+ and pnpm (or npm/yarn).
@@ -25,7 +24,6 @@ Requires Node.js 18+ and pnpm (or npm/yarn).
 ```bash
 git clone https://github.com/HimanshuSinghYadav7/Portfolio-Website.git
 cd Portfolio-Website
-python -m venv .venv && source .venv/bin/activate   # or: .venv\Scripts\activate on Windows
 pnpm install
 pnpm dev
 ```
@@ -57,7 +55,11 @@ If `FORMSPREE_ID` is missing, the contact form handler fails loud at startup (by
 
 ## Deployment
 
-Pushed to `main` auto-deploys to Vercel. No extra config needed beyond the `FORMSPREE_ID` env var (set in the Vercel dashboard under Project Settings → Environment Variables).
+This project is optimized for deployment on **Netlify**. 
+
+1. Connect your GitHub repository to Netlify.
+2. Set the build command to `pnpm build` and the publish directory to `.next`.
+3. Add the `FORMSPREE_ID` environment variable in the Netlify dashboard.
 
 ---
 
