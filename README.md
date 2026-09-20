@@ -5,6 +5,8 @@ This project is open-sourced to serve as a reference for other developers lookin
 
 Built with Next.js 16, React 19, TypeScript, Tailwind CSS 4, and shadcn/ui.
 
+🌐 **Live:** [himanshusinghyadav7.netlify.app](https://himanshusinghyadav7.netlify.app)
+
 ---
 
 ## 🚀 Using this as a Reference
