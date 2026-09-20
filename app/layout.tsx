@@ -8,23 +8,6 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'Himanshu Singh Yadav | AI/ML Engineer & Full-Stack Developer',
   description: 'AI/ML Engineer and Full-Stack Developer from Surat, Gujarat. Specializing in Machine Learning, Deep Learning, NLP, and modern web technologies. B.Tech student at P P Savani University.',
-  icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
-  },
 }
 
 export default function RootLayout({
